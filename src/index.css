@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #0f172a;
+  color: #f8fafc;
+}
+
+/* Standard CSS Scrollbars (Firefox & Standards) */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #334155 transparent;
+}
+
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(168, 85, 247, 0.4) transparent;
+}
+
+/* WebKit / Chromium / Edge / Electron Scrollbars */
+::-webkit-scrollbar,
+::-webkit-scrollbar:hover,
+::-webkit-scrollbar:active,
+::-webkit-scrollbar:horizontal,
+::-webkit-scrollbar:vertical {
+  width: 8px;
+  height: 8px;
+  background: transparent !important;
+}
+
+.custom-scrollbar::-webkit-scrollbar,
+.custom-scrollbar::-webkit-scrollbar:hover,
+.custom-scrollbar::-webkit-scrollbar:active,
+.custom-scrollbar::-webkit-scrollbar:horizontal,
+.custom-scrollbar::-webkit-scrollbar:vertical {
+  width: 5px;
+  height: 5px;
+  background: transparent !important;
+}
+
+/* Hide ALL scrollbar buttons, arrows, heads, and tails across ALL states */
+::-webkit-scrollbar-button,
+::-webkit-scrollbar-button:hover,
+::-webkit-scrollbar-button:active,
+::-webkit-scrollbar-button:single-button,
+::-webkit-scrollbar-button:double-button,
+::-webkit-scrollbar-button:start,
+::-webkit-scrollbar-button:end,
+::-webkit-scrollbar-button:decrement,
+::-webkit-scrollbar-button:increment,
+::-webkit-scrollbar-button:horizontal,
+::-webkit-scrollbar-button:vertical,
+.custom-scrollbar::-webkit-scrollbar-button,
+.custom-scrollbar::-webkit-scrollbar-button:hover,
+.custom-scrollbar::-webkit-scrollbar-button:active,
+.custom-scrollbar::-webkit-scrollbar-button:single-button,
+.custom-scrollbar::-webkit-scrollbar-button:double-button,
+.custom-scrollbar::-webkit-scrollbar-button:start,
+.custom-scrollbar::-webkit-scrollbar-button:end,
+.custom-scrollbar::-webkit-scrollbar-button:decrement,
+.custom-scrollbar::-webkit-scrollbar-button:increment,
+.custom-scrollbar::-webkit-scrollbar-button:horizontal,
+.custom-scrollbar::-webkit-scrollbar-button:vertical {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Completely transparent tracks, track pieces, corners, and resizers across ALL states */
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track:hover,
+::-webkit-scrollbar-track:active,
+::-webkit-scrollbar-track-piece,
+::-webkit-scrollbar-track-piece:hover,
+::-webkit-scrollbar-track-piece:active,
+::-webkit-scrollbar-corner,
+::-webkit-scrollbar-resizer,
+.custom-scrollbar::-webkit-scrollbar-track,
+.custom-scrollbar::-webkit-scrollbar-track:hover,
+.custom-scrollbar::-webkit-scrollbar-track:active,
+.custom-scrollbar::-webkit-scrollbar-track-piece,
+.custom-scrollbar::-webkit-scrollbar-track-piece:hover,
+.custom-scrollbar::-webkit-scrollbar-track-piece:active,
+.custom-scrollbar::-webkit-scrollbar-corner,
+.custom-scrollbar::-webkit-scrollbar-resizer {
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Scrollbar Thumbs */
+::-webkit-scrollbar-thumb {
+  background: #334155 !important;
+  border-radius: 9999px !important;
+  border: none !important;
+}
+
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:active {
+  background: #475569 !important;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(168, 85, 247, 0.4) !important;
+  border-radius: 9999px !important;
+  border: none !important;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover,
+.custom-scrollbar::-webkit-scrollbar-thumb:active {
+  background: rgba(168, 85, 247, 0.75) !important;
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="800" height="800">
+  <rect width="500" height="500" fill="white"/>
+  <g stroke="black" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Body -->
+    <path d="M 80,320 Q 90,200 250,180 Q 400,200 420,320 Q 410,400 250,420 Q 90,400 80,320 Z"/>
+    <!-- Cute Small Head -->
+    <path d="M 90,300 Q 40,300 30,330 Q 50,360 100,340"/>
+    <circle cx="55" cy="320" r="5"/>
+    <circle cx="56" cy="319" r="2" fill="black"/>
+    <!-- Back Plates -->
+    <polygon points="120,240 100,160 150,210"/>
+    <polygon points="170,200 160,110 210,180"/>
+    <polygon points="230,182 230,90 280,178"/>
+    <polygon points="290,185 300,105 340,195"/>
+    <polygon points="350,215 370,145 390,240"/>
+    <!-- Tail & Thagomizer Spikes -->
+    <path d="M 415,310 Q 470,300 490,320 Q 460,350 410,350"/>
+    <line x1="460" y1="305" x2="480" y2="270"/>
+    <line x1="475" y1="310" x2="495" y2="280"/>
+    <line x1="465" y1="320" x2="490" y2="340"/>
+    <!-- Legs -->
+    <rect x="120" y="380" width="45" height="70" rx="10"/>
+    <rect x="190" y="390" width="40" height="60" rx="10"/>
+    <rect x="300" y="390" width="40" height="60" rx="10"/>
+    <rect x="350" y="380" width="45" height="70" rx="10"/>
+  </g>
+</svg>

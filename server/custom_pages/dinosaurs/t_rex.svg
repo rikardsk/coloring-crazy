@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="800" height="800">
+  <rect width="500" height="500" fill="white"/>
+  <g stroke="black" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- T-Rex Head -->
+    <path d="M 180,120 Q 280,100 340,140 Q 360,170 330,200 Q 270,220 220,200 Z"/>
+    <!-- Eye & Teeth -->
+    <circle cx="240" cy="145" r="8"/>
+    <circle cx="242" cy="143" r="3" fill="black"/>
+    <polygon points="280,185 290,195 300,185"/>
+    <polygon points="310,180 320,190 330,178"/>
+    <!-- Body -->
+    <path d="M 180,160 Q 120,200 130,290 Q 150,380 250,380 Q 310,380 300,280 Q 290,220 220,200"/>
+    <!-- Tiny Arms -->
+    <path d="M 270,230 Q 300,240 290,255 L 275,250"/>
+    <path d="M 285,245 Q 310,250 305,265 L 290,260"/>
+    <!-- Powerful Legs -->
+    <path d="M 180,340 Q 170,420 160,460 L 210,460 Q 210,410 210,360"/>
+    <path d="M 240,350 Q 250,420 260,460 L 310,460 Q 290,410 270,350"/>
+    <!-- Claws -->
+    <path d="M 140,460 L 160,445 L 180,460 L 200,445 L 215,460"/>
+    <path d="M 245,460 L 265,445 L 285,460 L 305,445 L 315,460"/>
+    <!-- Tail -->
+    <path d="M 130,290 Q 50,280 30,220 Q 70,280 150,340"/>
+    <!-- Back Spikes -->
+    <polygon points="170,145 160,130 180,140"/>
+    <polygon points="145,180 130,170 150,190"/>
+    <polygon points="130,230 112,225 132,245"/>
+    <polygon points="100,255 80,255 105,270"/>
+  </g>
+</svg>

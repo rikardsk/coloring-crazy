@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="800" height="800">
+  <rect width="500" height="500" fill="white"/>
+  <g stroke="black" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Frill Crest -->
+    <path d="M 160,200 Q 140,80 250,70 Q 360,80 340,200 Z"/>
+    <!-- Frill Scallops -->
+    <circle cx="160" cy="140" r="10"/>
+    <circle cx="190" cy="100" r="10"/>
+    <circle cx="250" cy="80" r="10"/>
+    <circle cx="310" cy="100" r="10"/>
+    <circle cx="340" cy="140" r="10"/>
+    <!-- Head -->
+    <path d="M 180,180 Q 250,170 320,180 L 300,280 Q 250,320 200,280 Z"/>
+    <!-- Horns -->
+    <polygon points="200,170 170,90 220,160"/>
+    <polygon points="300,170 330,90 280,160"/>
+    <polygon points="240,280 250,240 260,280"/> <!-- Nose Horn -->
+    <!-- Eyes -->
+    <circle cx="215" cy="210" r="12"/>
+    <circle cx="285" cy="210" r="12"/>
+    <circle cx="218" cy="208" r="4" fill="black"/>
+    <circle cx="288" cy="208" r="4" fill="black"/>
+    <!-- Beak Mouth -->
+    <path d="M 230,290 Q 250,310 270,290"/>
+    <!-- Body -->
+    <path d="M 160,250 Q 80,280 90,380 Q 110,440 250,440 Q 390,440 410,380 Q 420,280 340,250"/>
+    <!-- Feet -->
+    <path d="M 130,390 L 130,460 L 190,460 L 190,410"/>
+    <path d="M 310,410 L 310,460 L 370,460 L 370,390"/>
+    <!-- Toenails -->
+    <ellipse cx="145" cy="460" rx="8" ry="5"/>
+    <ellipse cx="160" cy="460" rx="8" ry="5"/>
+    <ellipse cx="175" cy="460" rx="8" ry="5"/>
+    <ellipse cx="325" cy="460" rx="8" ry="5"/>
+    <ellipse cx="340" cy="460" rx="8" ry="5"/>
+    <ellipse cx="355" cy="460" rx="8" ry="5"/>
+    <!-- Tail -->
+    <path d="M 400,340 Q 470,360 480,410 Q 440,420 390,400"/>
+  </g>
+</svg>
