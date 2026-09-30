@@ -31,3 +31,7 @@ Thumbs.db
 
 # Build cache
 .vite/
+
+# Batch scripts
+*.bat
+
